@@ -14,7 +14,7 @@ st.write("""
          """)
 
 # Getting the user name
-user_input = st.text_input("Please enter your username", nameless)
+user_input = st.text_input("Please enter your username", "nameless")
 
 # Saying hello to the user
 st.write("Hello " + user_input + "!")
