@@ -11,3 +11,7 @@ st.write("""
          # My first app
          Hello *World!*
          """)
+
+user_input = st.text_input("Please enter your username", nameless)
+
+st.write("Hello " + user_input + "!")
