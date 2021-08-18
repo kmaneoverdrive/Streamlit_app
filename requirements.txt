@@ -3,4 +3,5 @@ numpy
 altair
 xlrd
 openpyxl
+pyarrow==3.0.0
 
