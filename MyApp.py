@@ -35,3 +35,5 @@ def get_table_download_link(df):
          
 df = pd.read_excel("Data/ahrefs_klint.xlsx")
 
+st.dataframe(df)
+
