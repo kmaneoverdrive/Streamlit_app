@@ -35,5 +35,5 @@ def get_table_download_link(df):
     href = f'<a href="data:file/csv;base64,{b64}">Download csv file</a>'
          
 df = pd.read_excel("Data/ahrefs_klint.xlsx")
-df.to_csv('Output/Prophet_Forecasts.csv',index=False)
 
+get_table_download_link(df)
