@@ -9,6 +9,7 @@ import streamlit as st
 import os
 cwd = os.getcwd()
 print(cwd)
+cwd
 
 # Hello world attempt
 st.write("""
