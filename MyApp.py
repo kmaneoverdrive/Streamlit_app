@@ -5,10 +5,10 @@ Spyder Editor
 This is a temporary script file.
 """
 # Imports
+import pandas as pd
 import streamlit as st
 import os
 cwd = os.getcwd()
-print(cwd)
 cwd
 
 # Hello world attempt
@@ -33,4 +33,5 @@ def get_table_download_link(df):
     b64 = base64.b64encode(csv.encode()).decode()  # some strings <-> bytes conversions necessary here
     href = f'<a href="data:file/csv;base64,{b64}">Download csv file</a>'
          
+df = pd.read_excel("Data/ahrefs_klint.xlsx")
 
