@@ -23,8 +23,6 @@ user_input = st.text_input("Please enter your username", "nameless")
 st.write("Hello " + user_input + "!")
 
 # File download experiment
-st.markdown(get_table_download_link(df), unsafe_allow_html=True)
-
 def get_table_download_link(df):
     """Generates a link allowing the data in a given panda dataframe to be downloaded
     in:  dataframe
